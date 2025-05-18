@@ -3,44 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>M.P. Jewellers</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet"/>
+  <title>MP Jewellers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body onload="welcomeUser()">
+<body>
   <header>
-    <div class="logo">M.P. jewellers</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Collections</a>
-      <a href="#">Contact</a>
-    </nav>
+    <h1><span class="logo">M.P.Jewellers</span></h1>
+    <p>Wholesale Manufacturer of Gold & Silver Ornaments</p>
   </header>
 
   <section class="hero">
-    <h1>Exquisite <span class="highlight">Jewellery</span> for Timeless Elegance</h1>
-    <p>Discover our handcrafted collection of premium gold and silver jewellery. Each piece tells a story of craftsmanship and beauty.</p>
-    <div class="buttons">
-      <a href="#" class="btn primary">Explore Collections</a>
-      <a href="#" class="btn secondary">Book Consultation</a>
-    </div>
-    <div class="gallery">
-      <img src="https://i.imgur.com/2nCt3Sb.jpg" alt="Jewellery 1" />
-      <img src="https://i.imgur.com/fHyEMsl.jpg" alt="Jewellery 2" />
+    <h2>Elegant Gold & Silver Jewellery</h2>
+    <p>Hallmark Certified | 18K, 20K & 22K Available</p>
+  </section>
+
+  <section class="products">
+    <h2>Our Collections</h2>
+    <div class="product-grid">
+      <div class="product">Mangalsutra</div>
+      <div class="product">Kamarband</div>
+      <div class="product">Rani Haar</div>
+      <div class="product">Jodha Haar</div>
+      <div class="product">Bangles Sets</div>
+      <div class="product">Couple Rings</div>
+      <div class="product">Earrings</div>
+      <div class="product">Bajuband</div>
+      <div class="product">Necklace</div>
+      <div class="product">Rose Gold Collection</div>
+      <div class="product">Mina Collection</div>
+      <div class="product">Rashi Ratan</div>
+      <div class="product">Mangtika</div>
+      <div class="product">Nath</div>
+      <div class="product">Bracelet</div>
+      <div class="product">Diamond set</div>
     </div>
   </section>
 
+  <section class="info">
+    <h2>About Us</h2>
+    <p>MP Jewellers offers a wide variety of gold and silver jewellery, crafted with precision and quality. Carat options include 18K, 20K, and 22K. We specialize in hallmark certified ornaments with traditional and trendy styles.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Owner:</strong> Akhilesh Soni & Nayan Soni</p>
+    <p><strong>Address:</strong> M.P Jewellers, Chavdi Road, Radha Vallabh Ward, Gadarwara, Madhya Pradesh</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/916269825866" target="_blank">Chat with us</a></p>
+  </section>
+
   <footer>
-    <p>&copy; 2025 M.P. Jewellers. All rights reserved.</p>
+    <p>&copy; 2025 MP Jewellers. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    function welcomeUser() {
-      let name = prompt("Welcome to M.P. Jewellers! Please enter your name:");
-      if (name) {
-        alert("Hello, " + name + "! Explore our elegant collections.");
-      }
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
