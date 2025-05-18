@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.highlight {
+  color: #d4af37;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.primary {
+  background-color: #f7c600;
+  color: #000;
+}
+
+.secondary {
+  border: 2px solid #f7c600;
+  color: #000;
+  background-color: transparent;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+  color: #777;
+  margin-top: 50px;
+}
