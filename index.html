@@ -2,45 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="SZRnKAj3LCsyQtJs5Evon7w3mv5yhomxz9ta-UgE8AA" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MP Jewellers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <!-- NAVIGATION BAR -->
+  <div class="topnav">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+  </div>
+
+  <header id="home">
     <h1><span class="logo">M.P.Jewellers</span></h1>
     <p>Wholesale Manufacturer of Gold & Silver Ornaments</p>
   </header>
 
-  <section class="hero">
-    <h2>Elegant Gold & Silver Jewellery</h2>
-    <p>Hallmark Certified | 18K, 20K & 22K Available</p>
-  </section>
+  
+<section class="gallery">
+  <h2>Our Gallery</h2>
+  <div class="filter-buttons">
+    <button onclick="filterImages('all')">Show All</button>
+    <button onclick="filterImages('mangalsutra')">Mangalsutra</button>
+    <button onclick="filterImages('Bangles')">Bangles</button>
+ <button onclick="filterImages('Earrings')">Earrings</button>
+ <button onclick="filterImages('Rings')">Rings</button>
+<button onclick="filterImages('Gemstones')">Gemstones</button>
+  </div>
 
-  <section class="products">
-    <h2>Our Collections</h2>
-    <div class="product-grid">
-      <div class="product">Mangalsutra</div>
-      <div class="product">Kamarband</div>
-      <div class="product">Rani Haar</div>
-      <div class="product">Jodha Haar</div>
-      <div class="product">Bangles Sets</div>
-      <div class="product">Couple Rings</div>
-      <div class="product">Earrings</div>
-      <div class="product">Bajuband</div>
-      <div class="product">Necklace</div>
-      <div class="product">Rose Gold Collection</div>
-      <div class="product">Mina Collection</div>
-      <div class="product">Rashi Ratan</div>
-      <div class="product">Mangtika</div>
-      <div class="product">Nath</div>
-      <div class="product">Bracelet</div>
-      <div class="product">Diamond set</div>
+  <div class="image-row">
+    <img src="https://i.pinimg.com/originals/41/1d/2f/411d2f34e8342aaa5e7d6786440c4e6d.gif" alt="Mangalsutra" class="gallery-image mangalsutra" />
+    <img src="https://www.hunarcourses.com/blog/wp-content/uploads/2020/06/GIF-1-5.gif" alt="Bangles" class="gallery-image Bangles" />
+    <img src="http://33.media.tumblr.com/e405c49df97ed1c1e2cf243d104d7b65/tumblr_nutni2pxey1rhwfb2o6_r1_540.gif" alt="Earrings" class="gallery-image Earrings" />
+    <img src="https://i.pinimg.com/originals/91/4d/96/914d969037a678ace7e6b63d6942c9f0.gif" alt="Rings" class="gallery-image Rings" />
+    <img src="https://i.gifer.com/7XS6.gif" alt="Gemstones" class="gallery-image Gemstones" />
+Note:- Kamarbandh, Jodhahaar, Ranihaar, Mangtika, Diamond sets, Mina collection, Rose gold collection, Chain, Bracelet E.T.C Ieams also.
+  </div>
+</section>
     </div>
   </section>
 
-  <section class="info">
+  <section id="about" class="info">
     <h2>About Us</h2>
     <p>MP Jewellers offers a wide variety of gold and silver jewellery, crafted with precision and quality. Carat options include 18K, 20K, and 22K. We specialize in hallmark certified ornaments with traditional and trendy styles.</p>
   </section>
