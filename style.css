@@ -1,56 +1,53 @@
-.branding-text {
+.brand-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4af37;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.brand-image {
+  max-width: 150px;
+  margin: 10px;
+}
+
+.brand-text {
   text-align: center;
-  margin-top: 10px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Main title styling with animation */
-.brand-title {
-  font-size: 2.5rem;
+.brand-text h2 {
+  font-size: 28px;
   font-weight: bold;
+  margin: 0;
+}
+
+.brand-text p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.brand-text:hover {
+  transform: scale(1.05);
   color: #fff8dc;
-  animation: slideFadeIn 1.2s ease-out forwards;
-  transition: transform 0.4s ease, color 0.4s ease;
-  cursor: pointer;
 }
 
-.brand-title:hover {
-  transform: scale(1.1);
-  color: #ffd700; /* golden color */
-}
-
-/* Subtitle animation and hover effect */
-.brand-subtitle {
-  font-size: 1.2rem;
-  color: #f0e68c;
-  animation: fadeIn 2s ease-in;
-  transition: letter-spacing 0.3s ease, color 0.3s ease;
-}
-
-.brand-subtitle:hover {
-  letter-spacing: 1px;
-  color: #ffffff;
-}
-
-/* Animations */
-@keyframes slideFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
+@media (max-width: 600px) {
+  .brand-section {
+    flex-direction: column;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  .brand-text h2 {
+    font-size: 22px;
+  }
+
+  .brand-text p {
+    font-size: 14px;
   }
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 
 * {
