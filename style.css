@@ -1,51 +1,24 @@
-.brand-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d4af37;
-  padding: 20px;
-  flex-wrap: wrap;
+.fade-slide {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s ease-out forwards;
 }
 
-.brand-image {
-  max-width: 150px;
-  margin: 10px;
+.fade-slide.delay {
+  animation-delay: 1s;
 }
 
-.brand-text {
-  text-align: center;
-  color: white;
-  transition: transform 0.3s ease, color 0.3s ease;
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.brand-text h2 {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.brand-text p {
-  font-size: 16px;
-  margin-top: 5px;
-}
-
-.brand-text:hover {
+.hover-gold:hover {
+  color: #d4af37;
   transform: scale(1.05);
-  color: #fff8dc;
-}
-
-@media (max-width: 600px) {
-  .brand-section {
-    flex-direction: column;
-  }
-
-  .brand-text h2 {
-    font-size: 22px;
-  }
-
-  .brand-text p {
-    font-size: 14px;
-  }
+  transition: all 0.3s ease-in-out;
 }
 
 
