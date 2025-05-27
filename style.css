@@ -1,4 +1,45 @@
 
+#header {
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.logo-image {
+  width: 50px;
+  height: auto;
+  animation: zoomIn 1s ease-in-out;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a9740e;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slideIn {
+  0% { transform: translateX(-20px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
 * {
   margin: 0;
   padding: 0;
