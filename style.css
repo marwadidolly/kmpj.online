@@ -215,3 +215,9 @@ html,body{
 }
 footer{
   padding-bottom:50px:}
+.top-banner{
+  display:block;
+  margin:0 auto;
+  max-width:100%
+  height:auto;
+}
