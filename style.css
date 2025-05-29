@@ -205,3 +205,13 @@ img{
   height:auto;
   display:block;
 }
+html,body{
+  height:auto!important;
+  min-height:100vh;
+  overflow-x:hidden;
+}
+*{
+  box-sizing:border-box;
+}
+footer{
+  padding-bottom:50px:}
